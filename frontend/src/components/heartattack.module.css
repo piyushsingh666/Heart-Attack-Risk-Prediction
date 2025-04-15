@@ -1,0 +1,109 @@
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  color: white;
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.flexcontainer {
+  display: flex;
+  gap: 150px;
+}
+
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="number"],
+select {
+  width: calc(100% - 10px);
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  grid-column: span 2;
+  background-color: #e63946;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #d62828;
+}
+
+.item2 {
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 150px;
+  width: 250px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.result {
+  margin-top: 20px;
+  font-weight: bold;
+  color: #fff;
+}
+.stressDropdown {
+  height:34px;
+  width: 205%; 
+  font-size: 14px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+  color: white;
+  text-align: center; 
+}
+
+h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.flexcontainer {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  gap: 180px; 
+}
+
+.form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  justify-content: center; 
+}
+
+.item2 {
+  padding: 20px;
+  background-color: rgba(42, 40, 44, 0.7);
+  height: 180px; 
+  width: 280px; 
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
